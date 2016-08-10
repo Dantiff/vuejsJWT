@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Test Page</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+ 
+<div class="top-bar" id="main-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text"><h1 style="text-align:center;">My First Foundation Page</h1> <br> <p> This page illustrates my firstcase implementation of a webpage using Foundation</p></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu vertical medium-horizontal expanded" data-responsive-menu="drilldown medium-dropdown">
+      <li class="has-submenu">
+        <a href="#">Foundation Lists</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a href="#">One</a></li>
+          <li><a href="#">Two</a></li>
+          <li><a href="#">Three</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Foundation Forms</a></li>
+      <li><a href="#">Foundation Buttons</a></li>
+    </ul>
+  </div>
+</div>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="callout">
+         
+          <div class="row">
+            <div class="large-4 medium-4 columns">
+              <h3> Foundation Lists </h3>
+              <p><br/> Everything you need to know about using the framework.</p>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <h3> Foundation Forms </h3>
+              <p><br/></p>
+                      <form>
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <label><strong>Name</strong></label>
+                            <input type="text" placeholder="large-12.columns" />
+                          </div>
+                        </div>
+                          <div class="large-6 medium-6 columns">
+                            <label><strong>Password</strong></label>
+                            <input type="password" placeholder="******" />
+                          </div>
+                          <div class="large-6 medium-6 columns">
+                            <div class="row collapse">
+                              <label><strong>Email Address</strong></label>
+                              <div class="input-group">
+                                <input type="text" placeholder="small-9.columns" class="input-group-field" />
+                                <span class="input-group-label">.com</span>
+                              </div>
+                            </div>
+                          </div>
+                        
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <label>Favorite CSS Framework</label>
+                            <select>
+                              <option value="foundation">Foundation</option>
+                              <option value="bootstrap">Bootstrap</option>
+                              <option value="pure">Pure</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="large-6 medium-6 columns">
+                            <label>Choose Your Favorite</label>
+                            <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
+                            <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
+                          </div>
+                          <div class="large-6 medium-6 columns">
+                            <label>Check these out</label>
+                            <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+                            <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <label>Textarea Label</label>
+                            <textarea placeholder="Leave comments"></textarea>
+                          </div>
+                        </div>
+                      </form>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <h3> Foundation Buttons </h3>
+                <p><br/></p>
+                <div class="col-sm-3">
+                  <h3>News Feed</h3>        
+                  <p>This column allows space for concurrent news feed and updates for the users. These news may be of different categorizations and hence require different button types as illustrated here:</p>
+                          <p><a href="#" class="button">&raquo; Normal news feed</a><br/>
+                          <a href="#" class="success button">&raquo; Congraturatory or Success news</a><br/>
+                          <a href="#" class="alert button">&raquo; Very urgent or important alerts</a><br/>
+                          <a href="#" class="secondary button">Normal Infor</a>
+                  
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
